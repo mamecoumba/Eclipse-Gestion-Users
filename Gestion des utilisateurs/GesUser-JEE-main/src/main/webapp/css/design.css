@@ -1,0 +1,175 @@
+@charset "ISO-8859-1";
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Content section styling */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #34495e;
+}
+
+/* Menu styling */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Menu item styling */
+nav ul li {
+    margin: 0;
+}
+
+/* Link styling */
+nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    padding: 10px;
+    display: block;
+}
+
+/* Hover effect on menu items */
+nav ul li a:hover {
+    background-color: #2c3e50;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* popup design */
+
+.alert-danger{
+	color: #902b2d;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.alert-success{
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+	padding: 20px;
+	text-align: center;
+
+	
+}
+
+.errorText{
+	color: #902b2d;
+	
+}
+
+.succesText{
+	color: #155724;
+	
+}
+
+/* Form styling */
+form.main {
+    margin-bottom: 30px;
+}
+form.main .formItem {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form.main .formItem label{
+    display: block; 
+    margin-bottom: 15px;
+}
+
+
+/* Input styling */
+form.main .formItem input[type="text"],
+form.main .formItem input[type="password"],
+form.main .formItem input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; 
+}
+
+/* Button styling */
+form.main input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form.main input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Table styling */
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+section table, th, td {
+    border: 1px solid #ddd;
+}
+
+section table td {
+	text-align: left;
+    padding: 10px;
+}
+
+section table th {
+	padding: 10px;
+	text-align: center;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+section table a {
+	text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
